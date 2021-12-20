@@ -1,0 +1,109 @@
+@media (max-width: 992px){
+    .sectionText{
+        padding: 153px 25px;
+    }
+    .sectionText h2{
+        font-size: 3rem;
+    }
+    .sectionText p,
+    .sectionText .ondeEstamos {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .contato{
+        background-image: none;
+        background-color: #D3AE71;
+    }
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .contato h2{
+        margin-bottom: 46px;
+    }
+}
+@media (max-width: 720px){
+    .ladrilho .grande{
+        width: 100%;
+    }
+    .ladrilho .media{
+        width: 100%;
+    }
+    .ladrilho .pequena,
+    .ladrilho .pequenaGrao{
+        width: 50%;
+    }
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+    .rodape .logo{
+        display: block;
+        margin-bottom: 122px;
+    }
+    .rodape ul{
+        display: block;
+        float: none;
+        margin-bottom: 122px;
+    }
+    .rodape ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .rodape ul li a{
+        font-size: 2rem;
+    }
+    .rodape .redesSociais{
+        float: none;
+        margin-bottom: 22px;
+    }
+}
+
+@media (max-width: 425px){
+    .cabeçalho{
+        margin: 0 auto;
+        
+    }
+    .cabeçalho .logo{
+        display: block;
+        margin: auto;
+        
+    }
+    .cabeçalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cabeçalho nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .cabeçalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+}   .painel h2{
+    font-size: 2.5rem;
+}
+.sectionText h2{
+    font-size: 3rem;
+}
+.sectionText p{
+    font-size: 2rem;
+}
+@media (max-width: 375px){
+    .ladrilho .pequena,
+    .ladrilho .pequenaGrao{
+        width: 100%;
+    }
+    
+}
